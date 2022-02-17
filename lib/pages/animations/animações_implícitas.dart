@@ -16,7 +16,7 @@ class _AnimacaoImplicitaPageState extends State<AnimacaoImplicitaPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Animação Implicita"),
+        title: const Text("Animação Implícita"),
       ),
       body: AnimatedAlign(
         alignment: isSelected ? Alignment.bottomRight : Alignment.topCenter,
